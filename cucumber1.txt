@@ -1,0 +1,25 @@
+
+
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+// added another users 
+//sdfsdfsdfsdf vilas baba
+'
+now added vmg
+public class Testng2 
+{
+
+	@Test 
+	@Parameters({"i", "j"})
+	public void sum(int a, int b)
+	{
+		System.out.println(a+b);
+	}
+	
+	
+	@Test (invocationCount=4)
+	public void show()
+	{
+		System.out.println("test cases");
+	}
+}
